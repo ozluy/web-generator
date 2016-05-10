@@ -1,5 +1,5 @@
 # npm-web-generator
-Basic web application tools and structure 
+Basic web application tools and structure
 
 #### includes
     "gulp": "^3.9.1",
@@ -18,10 +18,18 @@ Basic web application tools and structure
 
 #### useage
 
-install Npm Packages
+If you install with npm type
+
+`npm install web-generator`
+
+If you download directly you must install Npm Packages by typing
 
 `npm install`
 
 then run Gulp Task Runner
+
+`gulp`
+
+and finally visit http://localhost:1453
 
 `gulp`
