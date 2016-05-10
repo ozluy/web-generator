@@ -1,0 +1,15 @@
+doctype html
+html
+  head
+    block title
+    meta(name='viewport' content ='width=device-width, initial-scale=1, user-scalable=no')
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content ='IE=edge')
+    link(href='https://fonts.googleapis.com/css?family=Ubuntu:400,500,700,300&subset=latin-ext', rel='stylesheet', type='text/css')
+    link(href='assets/css/bundle.min.css', rel='stylesheet', type='text/css')
+    link(rel='shortcut-icon', href='favicon.ico')
+  body
+    include ./_header.jade
+    block content
+    include ./_footer.jade
+    script(src='assets/js/bundle.min.js', type='text/javascript')
