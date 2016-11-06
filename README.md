@@ -5,20 +5,20 @@ Basic web application tools and structure
 - Jade (HTML template engine)
 - SASS (.scss)
 - PostCSS auto prefixer (support for cross browsers)
-```
+
+````
     .{
       transition: all .4s ease;
      }
-```   
-     becomes
-```
-     .{
+```` 
+becomes
+````     .{
        -webkit-transition:all .4s ease;
        -o-transition:all .4s ease;
        -moz-transition:all .4s ease;
        transition:all .4s ease
      }
-     ```
+````
 - Image optimizer (optimizes images' sizes)
 
 
