@@ -1,3 +1,1 @@
-.container{width:500px;margin:0 auto}
-@media screen and (max-width:300px){.container{width:300px;margin:0 auto}}
-@media screen and (max-width:700px){.container{width:400px;margin:0 auto}}
+.container{width:500px;margin:0 auto;-webkit-transition:all .4s ease;-o-transition:all .4s ease;-moz-transition:all .4s ease;transition:all .4s ease}@media screen and (max-width:300px){.container{width:300px;margin:0 auto}}@media screen and (max-width:700px){.container{width:400px;margin:0 auto}}

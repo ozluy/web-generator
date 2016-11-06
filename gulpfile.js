@@ -10,6 +10,7 @@ var server = require('gulp-express');
 var pug = require('gulp-jade');
 var imagemin = require('gulp-image');
 var copy = require('gulp-contrib-copy');
+var autoprefixer = require('gulp-autoprefixer');
 
 var paths = {
   port:1453,
@@ -21,6 +22,7 @@ var paths = {
   images:'./dev/assets/images/*.*',
   copy:['./dev/favicon.ico'],
 };
+
 gulp.task('clean', function() {
   return del.sync(['dist/**/*']);//Clean must be sync to avoid from errors
 });
@@ -38,10 +40,11 @@ gulp.task('copy',['clean'], function() {
   .pipe(copy())
   .pipe(gulp.dest('dist'));
 });
+
 gulp.task('images', function () {
   gulp.src(paths.images)
-    .pipe(imagemin())
-    .pipe(gulp.dest('./dist/assets/img'));
+  .pipe(imagemin())
+  .pipe(gulp.dest('./dist/assets/img'));
 });
 
 gulp.task('html', function () {
@@ -74,11 +77,13 @@ gulp.task('scripts', function() {
 
 gulp.task('styles', function() {
   return gulp.src(paths.styles)
-  //.pipe(sourcemaps.init())
   .pipe(sass().on('error', sass.logError))
-  .pipe(minifyCSS())
   .pipe(concat('bundle.min.css'))
-  //.pipe(sourcemaps.write())
+  .pipe(autoprefixer({
+    browsers: ['> 0%'],
+    cascade: false
+  }))
+  .pipe(minifyCSS())
   .pipe(gulp.dest('dist/assets/css'))
   .pipe(connect.reload());
 });

@@ -1,10 +1,11 @@
 {
   "name": "web-generator",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "basic web structure and tools",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp"
   },
   "repository": {
     "type": "git",
@@ -33,6 +34,7 @@
   },
   "dependencies": {
     "del": "^2.2.0",
+    "gulp-autoprefixer": "^3.1.1",
     "gulp-concat": "^2.6.0",
     "gulp-connect": "^4.0.0",
     "gulp-contrib-copy": "^0.1.2",
