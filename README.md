@@ -2,20 +2,25 @@
 Basic web application tools and structure
 
 #### technologies
-- Jade
+- Jade (HTML template engine)
 - SASS (.scss)
 - PostCSS auto prefixer (support for cross browsers)
-    `.{
+```
+    .{
       transition: all .4s ease;
-     }`
+     }
+```   
      becomes
-     `.{
+```
+     .{
        -webkit-transition:all .4s ease;
        -o-transition:all .4s ease;
        -moz-transition:all .4s ease;
        transition:all .4s ease
-     }`
-- Image optimizer
+     }
+     ```
+- Image optimizer (optimizes images' sizes)
+
 
 
 #### packages
@@ -47,4 +52,4 @@ then run Gulp Task Runner
 
 `npm start` or `gulp`
 
-and finally visit http://localhost:1453
+and finally visit `http://localhost:1453`
