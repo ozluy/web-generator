@@ -10,9 +10,10 @@ Basic web application tools and structure
     .{
       transition: all .4s ease;
      }
-```` 
+````
 becomes
-````     .{
+````     
+    .{
        -webkit-transition:all .4s ease;
        -o-transition:all .4s ease;
        -moz-transition:all .4s ease;
@@ -42,6 +43,7 @@ becomes
 
 If you install with npm type
 
+<a href='https://www.npmjs.com/package/web-generator' target="_blank"> </a>
 `npm install web-generator` or `npm i web-generator`
 
 If you download directly you must install Npm Packages by typing
