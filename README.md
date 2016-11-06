@@ -41,9 +41,10 @@ becomes
 
 #### useage
 
-If you install with npm type
+If you install with npm type 
 
-<a href='https://www.npmjs.com/package/web-generator' target="_blank"> </a>
+to see on NPM click <a href='https://www.npmjs.com/package/web-generator' target="_blank">link</a>
+
 `npm install web-generator` or `npm i web-generator`
 
 If you download directly you must install Npm Packages by typing
