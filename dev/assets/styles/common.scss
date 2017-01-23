@@ -1,0 +1,22 @@
+body{
+  font-family: Ubuntu;
+  padding: 0;
+  margin: 0;
+}
+a{
+  text-decoration: none;
+}
+ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+main .container{
+  background-color: #aaa;
+  padding: 15px;
+}
+.container{
+  width:500px;
+  margin: 0 auto;
+  transition: all 400ms ease;
+}

@@ -7,18 +7,18 @@ var sass = require('gulp-sass');
 var minifyCSS = require('gulp-minify-css');
 var del = require('del');
 var server = require('gulp-express');
-var pug = require('gulp-jade');
+var pug = require('gulp-pug');
 var imagemin = require('gulp-image');
 var copy = require('gulp-contrib-copy');
 var autoprefixer = require('gulp-autoprefixer');
 
 var paths = {
-  port:1453,
-  partials: './dev/views/shared/*.jade',
+  port:1454,
+  partials: './dev/views/shared/*.pug',
   scripts: ['./dev/assets/scripts/common.js'],
   styles:'./dev/assets/styles/*.scss',
   html:'./dist/*.html',
-  templates:'./dev/views/*.jade',
+  templates:'./dev/views/*.pug',
   images:'./dev/assets/images/*.*',
   copy:['./dev/favicon.ico'],
 };

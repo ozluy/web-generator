@@ -9,7 +9,8 @@ html
     link(href='assets/css/bundle.min.css', rel='stylesheet', type='text/css')
     link(rel='shortcut-icon', href='favicon.ico')
   body
-    include ./_header.jade
-    block content
-    include ./_footer.jade
+    include ./_header.pug
+    main
+      block content
+    include ./_footer.pug
     script(src='assets/js/bundle.min.js', type='text/javascript')
