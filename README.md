@@ -59,3 +59,7 @@ then run Gulp Task Runner
 `npm start` or `gulp`
 
 and finally visit `http://localhost:1453`
+
+#### output demo
+You will see same views when you run the project
+[Output Demo Link](http://ozluy.github.io/projects/web-generator/)
