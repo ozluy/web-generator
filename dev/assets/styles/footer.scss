@@ -2,4 +2,12 @@
   background-color: #888;
   padding: 15px;
   color: #fff;
+  .footer__dojocat{
+    width: 100%;
+    transition: filter .4s ease;
+    filter: blur(15px);
+    &:hover{
+      filter: blur(0);
+    }
+  }
 }
