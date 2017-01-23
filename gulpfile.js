@@ -13,7 +13,7 @@ var copy = require('gulp-contrib-copy');
 var autoprefixer = require('gulp-autoprefixer');
 
 var paths = {
-  port:1454,
+  port:1453,
   partials: './dev/views/shared/*.pug',
   scripts: ['./dev/assets/scripts/common.js'],
   styles:'./dev/assets/styles/*.scss',
