@@ -1,8 +1,9 @@
 # web-generator
 Basic web application tools and structure
 
+
 #### technologies
-1) Jade (HTML template engine)
+1) Pug (Jade) (HTML template engine)
 
 2) SASS (.scss)
 
@@ -28,19 +29,23 @@ becomes
 
 #### packages
 ```
-- gulp
 - del
+- gulp
 - gulp-autoprefixer
 - gulp-concat
 - gulp-connect
 - gulp-contrib-copy
 - gulp-express
 - gulp-image
-- gulp-pug(known as Jade)
+- gulp-livereload
 - gulp-minify-css
+- gulp-plumber
+- gulp-pug
 - gulp-sass
-- gulp-sourcemaps
+- gulp-sourcemaps-alpha
 - gulp-uglify
+- gulp-util
+
 ```
 #### useage
 
