@@ -49,16 +49,6 @@ becomes
 ```
 #### useage
 
-If you install with npm type 
-
-to see on NPM click <a href='https://www.npmjs.com/package/web-generator' target="_blank">link</a>
-
-`npm install web-generator` or `npm i web-generator`
-
-If you download directly you must install Npm Packages by typing
-
-`npm install` or `npm i`
-
 then run Gulp Task Runner
 
 `npm start` or `gulp`
