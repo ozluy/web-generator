@@ -49,11 +49,11 @@ becomes
 ```
 #### useage
 
-then run Gulp Task Runner
+run Gulp Task Runner
 
 `npm start` or `gulp`
 
-and finally visit `http://localhost:1453`
+then open `http://localhost:1453`
 
 #### output demo
 You will see same views when you run the project
